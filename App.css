@@ -1,0 +1,114 @@
+body>div, .App, .App-header, .App-main{
+  height:100%;
+}
+
+
+
+
+.card{
+  margin:40px;
+  padding:20px;
+  border:5px orange solid;
+  border-radius: 10px;
+  color:black;
+  background-image:linear-gradient(to right,yellow,orange);
+}
+
+.card-title{
+  font-family: fantasy;
+  font-size: 1.4em;
+  text-decoration: underline;
+}
+
+.card-text{
+  font-family:fantasy;
+  
+}
+
+
+.App {
+  display:flex;
+  flex-grow:1;
+  flex-flow:column;
+  height:100%;
+}
+
+.App-head-image{
+  margin: 5px;
+ }
+
+.App-head-title{
+  margin:5px;
+}
+.Interface{
+
+  height:8vh;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 3px orange solid;
+  background-color:#282c34;
+}
+
+.Response{
+  display:flex;
+  direction:column;
+   align-items: center;
+    justify-content: center;
+}
+
+
+.App-header {
+  background-color: #282c34;
+  flex-grow:0;
+  height:15vh;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  flex-direction:row;
+  display:flex;
+  flex-wrap:wrap;
+  border-bottom: 5px orange solid;
+}
+
+.App-main{
+   background-image:linear-gradient(to right,grey,white);
+  overflow: hidden;
+  flex-grow: 1;
+  position: relative;
+  
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  height:85vh;
+
+}
+.btn-group{
+  display:inline-flex;
+
+   align-items: center;
+  justify-content: center;
+}
+
+.btn{
+  display:flex;
+  margin:5px;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color:white;
+  border-color:yellow;
+  border:2px;
+  border-radius:15%;
+  padding:5px;
+ 
+  flex: 50%;
+  background-color: black;
+  font-size:20px;
+}
+.btn:hover{
+  background-color:grey;
+}
+
