@@ -8,7 +8,7 @@ const {title,text,image}=joke;
 
 return(
  <div className="Response">
-          <Card style={{ width: '18rem' }}>
+          <Card style={{ width: '25rem' }}>
             <Card.Img variant="top" src={image} alt="" />
             <Card.Body>
             <Card.Title>{title}</Card.Title>

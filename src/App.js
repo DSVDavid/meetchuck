@@ -18,7 +18,7 @@ constructor(){
         categories:[],
         joke:{
           title:'Welcome',
-          text:'To the Chuck Norris joke API',
+          text:'To the Chuck Norris joke APP',
           image:'#'
         }
     }
